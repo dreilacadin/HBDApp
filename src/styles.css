@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fc466b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3f5efb,
+    #fc466b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3f5efb,
+    #fc466b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.greetings {
+  text-align: center;
+}
+
+.greetings h1 {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 1.7rem;
+  line-height: 2.2em;
+}
+
+.greetings p {
+  font-family: "Montserrat", sans-serif;
+  color: #fefefe;
+  margin-bottom: 2rem;
+}
+
+.greetings button {
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  background: #60a3bc;
+  padding: 15px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.greetings button:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
